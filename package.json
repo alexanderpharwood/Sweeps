@@ -1,0 +1,22 @@
+{
+  "name": "sweeps",
+  "version": "1.0.0",
+  "description": "Reactive state management",
+  "type": "module",
+  "main": "./dist/Store.js",
+  "module": "./dist/Store.js",
+  "types": "./dist/Store.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "build": "bash ./build.sh"
+  },
+  "author": "Alexander P. Harwood",
+  "license": "ISC",
+  "devDependencies": {
+    "bun": "^1.0.6",
+    "bun-types": "^1.0.6"
+  }
+}

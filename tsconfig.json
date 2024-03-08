@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "declaration": true,
+        "strict": true,
+        "target": "es2015",
+        "types": [
+            "bun-types"
+        ],
+        "skipLibCheck": true
+    },
+    "include": [
+        "./lib/**/*"
+    ]
+}
